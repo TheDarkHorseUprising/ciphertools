@@ -13,8 +13,9 @@ indexrange=int(len(charlist))
 #create out variable
 out=""
 
+#main loop
 for rot in range(1,26):
-    #main loop
+    #internal loop
     for i in range (0, indexrange):
     
         #main if
